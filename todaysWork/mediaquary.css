@@ -1,0 +1,13 @@
+@media(max-width:800px){
+    .input-text{
+        width: 20vw;
+    }
+    .textarea{
+        width: 20vw;
+    }
+
+    img{
+        display: none;
+    }
+
+}

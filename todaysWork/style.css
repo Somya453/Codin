@@ -1,0 +1,113 @@
+* {
+    padding: 1px;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+    
+  }
+
+  h1{
+    color: #053343;
+    font-size: 40px;
+    text-align: auto;
+  }
+
+  body{
+    font-family: 'Outfit';
+    margin: 0;
+    padding: 0;
+  }
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    height: 100vh;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 10px;
+
+
+  }
+
+  .img{
+    order: 1;
+    height: 55vh;
+    width: 45vw;
+    position: relative;
+
+  }
+
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    position: absolute;
+    gap: 25px;
+    width: 50vw;
+    border: 2px;
+    border-color: #053343;
+    box-shadow: 0 0 30px rgba(0,0);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+  }
+
+ 
+
+  .input-text{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+   
+    padding-left: 25px;
+    
+
+
+  }
+
+  .input-text:focus{
+    border: 2px solid #053343;
+  }
+
+  .textarea{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px ;
+  }
+
+
+
+  button {
+    position: center;
+    margin-right: 120px;
+    cursor: pointer;
+  
+    border-radius: 5cm 5cm 5cm;
+    text-align: center;
+    border: none;
+    color: white;
+    padding: 20px;
+    width: 20vw;
+  
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 20px;
+    height: 55px;
+  
+    background-color:#053343;
+  }
+  
+  button:hover {
+    color: black;
+    background-color: whitesmoke;
+  }
+  
